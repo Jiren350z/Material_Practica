@@ -1,0 +1,20 @@
+C:\Users\diego\source\repos\COTIZACIÓN DE COMPRA DE CONSOLA\bin\Debug\COTIZACIÓN DE COMPRA DE CONSOLA.exe.config
+C:\Users\diego\source\repos\COTIZACIÓN DE COMPRA DE CONSOLA\bin\Debug\COTIZACIÓN DE COMPRA DE CONSOLA.exe
+C:\Users\diego\source\repos\COTIZACIÓN DE COMPRA DE CONSOLA\bin\Debug\COTIZACIÓN DE COMPRA DE CONSOLA.pdb
+C:\Users\diego\source\repos\COTIZACIÓN DE COMPRA DE CONSOLA\obj\Debug\COTIZACIÓN DE COMPRA DE CONSOLA.csproj.AssemblyReference.cache
+C:\Users\diego\source\repos\COTIZACIÓN DE COMPRA DE CONSOLA\obj\Debug\COTIZACIÓN_DE_COMPRA_DE_CONSOLA.Form1.resources
+C:\Users\diego\source\repos\COTIZACIÓN DE COMPRA DE CONSOLA\obj\Debug\COTIZACIÓN_DE_COMPRA_DE_CONSOLA.Properties.Resources.resources
+C:\Users\diego\source\repos\COTIZACIÓN DE COMPRA DE CONSOLA\obj\Debug\COTIZACIÓN DE COMPRA DE CONSOLA.csproj.GenerateResource.cache
+C:\Users\diego\source\repos\COTIZACIÓN DE COMPRA DE CONSOLA\obj\Debug\COTIZACIÓN DE COMPRA DE CONSOLA.csproj.CoreCompileInputs.cache
+C:\Users\diego\source\repos\COTIZACIÓN DE COMPRA DE CONSOLA\obj\Debug\COTIZACIÓN DE COMPRA DE CONSOLA.exe
+C:\Users\diego\source\repos\COTIZACIÓN DE COMPRA DE CONSOLA\obj\Debug\COTIZACIÓN DE COMPRA DE CONSOLA.pdb
+C:\Users\diego\Desktop\COTIZACIÓN DE COMPRA DE CONSOLA\bin\Debug\COTIZACIÓN DE COMPRA DE CONSOLA.exe.config
+C:\Users\diego\Desktop\COTIZACIÓN DE COMPRA DE CONSOLA\bin\Debug\COTIZACIÓN DE COMPRA DE CONSOLA.exe
+C:\Users\diego\Desktop\COTIZACIÓN DE COMPRA DE CONSOLA\bin\Debug\COTIZACIÓN DE COMPRA DE CONSOLA.pdb
+C:\Users\diego\Desktop\COTIZACIÓN DE COMPRA DE CONSOLA\obj\Debug\COTIZACIÓN DE COMPRA DE CONSOLA.csproj.AssemblyReference.cache
+C:\Users\diego\Desktop\COTIZACIÓN DE COMPRA DE CONSOLA\obj\Debug\COTIZACIÓN_DE_COMPRA_DE_CONSOLA.Form1.resources
+C:\Users\diego\Desktop\COTIZACIÓN DE COMPRA DE CONSOLA\obj\Debug\COTIZACIÓN_DE_COMPRA_DE_CONSOLA.Properties.Resources.resources
+C:\Users\diego\Desktop\COTIZACIÓN DE COMPRA DE CONSOLA\obj\Debug\COTIZACIÓN DE COMPRA DE CONSOLA.csproj.GenerateResource.cache
+C:\Users\diego\Desktop\COTIZACIÓN DE COMPRA DE CONSOLA\obj\Debug\COTIZACIÓN DE COMPRA DE CONSOLA.csproj.CoreCompileInputs.cache
+C:\Users\diego\Desktop\COTIZACIÓN DE COMPRA DE CONSOLA\obj\Debug\COTIZACIÓN DE COMPRA DE CONSOLA.exe
+C:\Users\diego\Desktop\COTIZACIÓN DE COMPRA DE CONSOLA\obj\Debug\COTIZACIÓN DE COMPRA DE CONSOLA.pdb

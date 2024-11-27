@@ -1,0 +1,30 @@
+﻿@model Proyecto3V3_Camilo_P_Diego_M.Models.NúmeroDeTelefonoDeFarmacium
+
+@{
+    ViewData["Title"] = "Detalles";
+}
+
+<h1>Detalles</h1>
+
+<div>
+    <h4>Número De Telefono De Farmacia</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.NúmeroDeTelefono)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.NúmeroDeTelefono)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.IdnumFarNavigation)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.IdnumFarNavigation.Idfar)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.IdnumFar">Editar</a> |
+    <a asp-action="Index">Volver a la lista</a>
+</div>

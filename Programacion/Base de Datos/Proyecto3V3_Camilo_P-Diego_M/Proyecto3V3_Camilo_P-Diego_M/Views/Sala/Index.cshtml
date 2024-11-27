@@ -1,0 +1,83 @@
+﻿@model IEnumerable<Proyecto3V3_Camilo_P_Diego_M.Models.Sala>
+
+@{
+    ViewData["Title"] = "Indice";
+}
+
+<h1>Indice</h1>
+
+<p>
+    <a asp-action="Create">Crear nuevo</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Código)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Tipo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CapacidadDePacientes)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NombreDePaciente)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Fecha)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.HoraDeEntrada)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.HoraDeSalida)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Diagnóstico)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Tratamiento)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Código)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Tipo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CapacidadDePacientes)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NombreDePaciente)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Fecha)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.HoraDeEntrada)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.HoraDeSalida)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Diagnóstico)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Tratamiento)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Idsala">Editar</a> |
+                <a asp-action="Details" asp-route-id="@item.Idsala">Detalles</a> |
+                <a asp-action="Delete" asp-route-id="@item.Idsala">Borrar</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

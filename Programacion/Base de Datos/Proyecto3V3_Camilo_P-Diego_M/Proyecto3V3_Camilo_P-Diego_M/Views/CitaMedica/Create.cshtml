@@ -1,0 +1,74 @@
+﻿@model Proyecto3V3_Camilo_P_Diego_M.Models.CitaMedica
+
+@{
+    ViewData["Title"] = "Crear";
+}
+
+<h1>Crear</h1>
+
+<h4>Cita Medica</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Motivo" class="control-label"></label>
+                <input asp-for="Motivo" class="form-control" />
+                <span asp-validation-for="Motivo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Pago" class="control-label"></label>
+                <input asp-for="Pago" class="form-control" />
+                <span asp-validation-for="Pago" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label class="control-label" for="DepartamentoMedico">Departamento medico</label>
+                <input asp-for="DepartamentoMedico" class="form-control" />
+                <span asp-validation-for="DepartamentoMedico" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Día" class="control-label"></label>
+                <input asp-for="Día" class="form-control" />
+                <span asp-validation-for="Día" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Mes" class="control-label"></label>
+                <input asp-for="Mes" class="form-control" />
+                <span asp-validation-for="Mes" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Año" class="control-label"></label>
+                <input asp-for="Año" class="form-control" />
+                <span asp-validation-for="Año" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label class="control-label" for="Idpaciente">Id paciente</label>
+                <select asp-for="Idpaciente" class ="form-control" asp-items="ViewBag.Idpaciente"></select>
+            </div>
+            <div class="form-group">
+                <label class="control-label" for="Idsal">Id sala</label>
+                <select asp-for="Idsal" class ="form-control" asp-items="ViewBag.Idsal"></select>
+            </div>
+            <div class="form-group">
+                <label class="control-label" for="Idrecepcionista">Id recepcionista</label>
+                <select asp-for="Idrecepcionista" class ="form-control" asp-items="ViewBag.Idrecepcionista"></select>
+            </div>
+            <div class="form-group">
+                <label class="control-label" for="Iddoctor">Id doctor</label>
+                <select asp-for="Iddoctor" class ="form-control" asp-items="ViewBag.Iddoctor"></select>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Crear" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Volver a la lista</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

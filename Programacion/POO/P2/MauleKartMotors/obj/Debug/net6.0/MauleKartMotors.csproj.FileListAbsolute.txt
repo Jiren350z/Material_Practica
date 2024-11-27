@@ -1,0 +1,15 @@
+/Users/oscarrodriguezmendoza/Desktop/Clase17/MauleKartMotors/bin/Debug/net6.0/MauleKartMotors
+/Users/oscarrodriguezmendoza/Desktop/Clase17/MauleKartMotors/bin/Debug/net6.0/MauleKartMotors.deps.json
+/Users/oscarrodriguezmendoza/Desktop/Clase17/MauleKartMotors/bin/Debug/net6.0/MauleKartMotors.runtimeconfig.json
+/Users/oscarrodriguezmendoza/Desktop/Clase17/MauleKartMotors/bin/Debug/net6.0/MauleKartMotors.dll
+/Users/oscarrodriguezmendoza/Desktop/Clase17/MauleKartMotors/bin/Debug/net6.0/MauleKartMotors.pdb
+/Users/oscarrodriguezmendoza/Desktop/Clase17/MauleKartMotors/obj/Debug/net6.0/MauleKartMotors.csproj.AssemblyReference.cache
+/Users/oscarrodriguezmendoza/Desktop/Clase17/MauleKartMotors/obj/Debug/net6.0/MauleKartMotors.GeneratedMSBuildEditorConfig.editorconfig
+/Users/oscarrodriguezmendoza/Desktop/Clase17/MauleKartMotors/obj/Debug/net6.0/MauleKartMotors.AssemblyInfoInputs.cache
+/Users/oscarrodriguezmendoza/Desktop/Clase17/MauleKartMotors/obj/Debug/net6.0/MauleKartMotors.AssemblyInfo.cs
+/Users/oscarrodriguezmendoza/Desktop/Clase17/MauleKartMotors/obj/Debug/net6.0/MauleKartMotors.csproj.CoreCompileInputs.cache
+/Users/oscarrodriguezmendoza/Desktop/Clase17/MauleKartMotors/obj/Debug/net6.0/MauleKartMotors.dll
+/Users/oscarrodriguezmendoza/Desktop/Clase17/MauleKartMotors/obj/Debug/net6.0/refint/MauleKartMotors.dll
+/Users/oscarrodriguezmendoza/Desktop/Clase17/MauleKartMotors/obj/Debug/net6.0/MauleKartMotors.pdb
+/Users/oscarrodriguezmendoza/Desktop/Clase17/MauleKartMotors/obj/Debug/net6.0/MauleKartMotors.genruntimeconfig.cache
+/Users/oscarrodriguezmendoza/Desktop/Clase17/MauleKartMotors/obj/Debug/net6.0/ref/MauleKartMotors.dll

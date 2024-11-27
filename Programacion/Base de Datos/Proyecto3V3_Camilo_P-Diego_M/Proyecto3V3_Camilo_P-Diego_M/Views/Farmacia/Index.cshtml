@@ -1,0 +1,53 @@
+﻿@model IEnumerable<Proyecto3V3_Camilo_P_Diego_M.Models.Farmacium>
+
+@{
+    ViewData["Title"] = "Indice";
+}
+
+<h1>Indice</h1>
+
+<p>
+    <a asp-action="Create">Crear nuevo</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.HorarioDeAtencion)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Ubicacion)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CapacidadDeStock)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ListaDeMedicamentos)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.HorarioDeAtencion)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Ubicacion)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CapacidadDeStock)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ListaDeMedicamentos)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Idfar">Editar</a> |
+                <a asp-action="Details" asp-route-id="@item.Idfar">Detalles</a> |
+                <a asp-action="Delete" asp-route-id="@item.Idfar">Borrar</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

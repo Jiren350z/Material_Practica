@@ -1,0 +1,34 @@
+﻿@model Proyecto3V3_Camilo_P_Diego_M.Models.NúmeroDeTelefonoEnfermero
+
+@{
+    ViewData["Title"] = "Editar";
+}
+
+<h1>Editar</h1>
+
+<h4>Número De Telefono De Enfermero</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="IdnumEnf" />
+            <div class="form-group">
+                <label asp-for="NúmeroDeTelefono" class="control-label"></label>
+                <input asp-for="NúmeroDeTelefono" class="form-control" />
+                <span asp-validation-for="NúmeroDeTelefono" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Guardar" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Volver a la lista</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

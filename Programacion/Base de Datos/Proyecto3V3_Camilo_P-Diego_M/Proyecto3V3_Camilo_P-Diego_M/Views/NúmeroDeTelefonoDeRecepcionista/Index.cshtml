@@ -1,0 +1,41 @@
+﻿@model IEnumerable<Proyecto3V3_Camilo_P_Diego_M.Models.NúmeroDeTelefonoDeRecepcionistum>
+
+@{
+    ViewData["Title"] = "Indice";
+}
+
+<h1>Indice</h1>
+
+<p>
+    <a asp-action="Create">Crear nuevo</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.NúmeroDeTelefono)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IdnumRecepNavigation)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.NúmeroDeTelefono)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IdnumRecepNavigation.Idrecep)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.IdnumRecep">Editar</a> |
+                <a asp-action="Details" asp-route-id="@item.IdnumRecep">Detalles</a> |
+                <a asp-action="Delete" asp-route-id="@item.IdnumRecep">Borrar</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

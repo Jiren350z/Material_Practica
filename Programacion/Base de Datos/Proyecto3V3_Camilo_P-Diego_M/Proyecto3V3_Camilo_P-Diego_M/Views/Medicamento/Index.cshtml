@@ -1,0 +1,77 @@
+﻿@model IEnumerable<Proyecto3V3_Camilo_P_Diego_M.Models.Medicamento>
+
+@{
+    ViewData["Title"] = "Indice";
+}
+
+<h1>Indice</h1>
+
+<p>
+    <a asp-action="Create">Crear nuevo</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.CódigoEnBodega)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Nombre)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FechaDeCaducidad)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.InstruccionesDeUso)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Integredientes)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FórmulaFarmaceutica)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IddoctorNavigation)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IdfarmaciaNavigation)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.CódigoEnBodega)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nombre)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FechaDeCaducidad)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.InstruccionesDeUso)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Integredientes)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FórmulaFarmaceutica)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IddoctorNavigation.Iddoc)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IdfarmaciaNavigation.Idfar)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Idmed">Editar</a> |
+                <a asp-action="Details" asp-route-id="@item.Idmed">Detalles</a> |
+                <a asp-action="Delete" asp-route-id="@item.Idmed">Borrar</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

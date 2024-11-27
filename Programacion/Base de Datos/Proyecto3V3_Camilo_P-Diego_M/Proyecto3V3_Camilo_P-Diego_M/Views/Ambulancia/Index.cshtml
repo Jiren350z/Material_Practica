@@ -1,0 +1,83 @@
+﻿@model IEnumerable<Proyecto3V3_Camilo_P_Diego_M.Models.Ambulancium>
+
+@{
+    ViewData["Title"] = "Indice";
+}
+
+<h1>Indice</h1>
+
+<p>
+    <a asp-action="Create">Crear nueva</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Patente)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Marca)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Modelo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.UbicaciónActual)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Disponibilidad)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.HoraDeLlamada)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DíaDeLlamada)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MesDeLlamada)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AñoDeLlamada)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Patente)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Marca)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Modelo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.UbicaciónActual)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Disponibilidad)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.HoraDeLlamada)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DíaDeLlamada)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MesDeLlamada)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AñoDeLlamada)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Idamb">Editar</a> |
+                <a asp-action="Details" asp-route-id="@item.Idamb">Detalles</a> |
+                <a asp-action="Delete" asp-route-id="@item.Idamb">Borrar</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

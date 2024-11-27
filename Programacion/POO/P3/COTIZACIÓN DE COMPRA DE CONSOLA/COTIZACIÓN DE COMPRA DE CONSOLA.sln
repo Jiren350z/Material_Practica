@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33027.164
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "COTIZACIÓN DE COMPRA DE CONSOLA", "COTIZACIÓN DE COMPRA DE CONSOLA.csproj", "{5A03516E-DA56-4C00-AA09-6C5822BDCE7F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5A03516E-DA56-4C00-AA09-6C5822BDCE7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A03516E-DA56-4C00-AA09-6C5822BDCE7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A03516E-DA56-4C00-AA09-6C5822BDCE7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A03516E-DA56-4C00-AA09-6C5822BDCE7F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3BB7EA0E-A980-428D-B15F-45C1693B887D}
+	EndGlobalSection
+EndGlobal

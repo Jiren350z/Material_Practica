@@ -1,0 +1,48 @@
+﻿@model Proyecto3V3_Camilo_P_Diego_M.Models.Farmacium
+
+@{
+    ViewData["Title"] = "Crear";
+}
+
+<h1>Crear</h1>
+
+<h4>Farmacia</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label class="control-label" for="HorarioDeAtencion">Horario de atención</label>
+                <input asp-for="HorarioDeAtencion" class="form-control" />
+                <span asp-validation-for="HorarioDeAtencion" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label class="control-label" for="Ubicacion">Ubicación</label>
+                <input asp-for="Ubicacion" class="form-control" />
+                <span asp-validation-for="Ubicacion" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label class="control-label" for="CapacidadDeStock">Capacidad De Stock</label>
+                <input asp-for="CapacidadDeStock" class="form-control" />
+                <span asp-validation-for="CapacidadDeStock" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label class="control-label" for="ListaDeMedicamentos">Lista De Medicamentos</label>
+                <input asp-for="ListaDeMedicamentos" class="form-control" />
+                <span asp-validation-for="ListaDeMedicamentos" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Crear" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Volver a la lista</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
